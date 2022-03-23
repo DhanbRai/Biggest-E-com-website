@@ -1,0 +1,683 @@
+.nav{
+     background-color: orange;
+     z-index: 9;
+     padding: 10px;
+     padding-right: 50px;
+     padding: left 50px;
+     display: flex;
+     box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.5);
+     justify-content: center;
+     align-items: center;
+}
+.nav_top{
+     position: relative;
+     top: 0;
+     right: 0;
+     left: 0;
+}
+.logo{
+     width: 60%;
+}
+.logo img{
+     padding: 0px;
+}
+.nav-side{
+     float: right;
+     width: 40%;
+}
+.nav-side a{
+     text-decoration: none;
+     margin-right: 20px;
+     margin-top: 25px;
+     color: #000;
+     font-weight: bold;
+     font-size: 20px;
+}
+.nav-side a:hover{
+     color:white;
+     /* transition: 1s ease; */
+}
+.main{
+     background-image: url("images/homepage.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 80vh;
+}
+.main .main_content{
+     padding-top:10%;
+     margin-left: 10%;
+     margin-right: 10%;
+     text-align: center;    
+}
+.main .main_content h2{
+     /* margin-bottom: 10px; */
+     color:white;
+     font-size: 60px;
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: bolder;
+     line-height: 20px;
+}
+.main .main_content span{
+     margin-top: 10px;
+     color: #F1C40F;
+     opacity: 0.8;
+     font-size: 16px;
+     font-weight: lighter;
+     line-height: 10px;
+}
+.main .main_content .btn{
+     margin-top: 20px;
+}
+.main .main_content .btn a{
+     text-decoration: none;
+     font-size: 25px;
+     font-weight: bolder;
+     width: 100px;
+     height: 100px;
+     box-sizing: border-box;
+     border: 2px solid white;
+     padding: 10px;
+     border-radius: 12px;
+     background-color: yellowgreen;
+}
+.main .main_content .btn a:hover{
+     color: azure;
+     background-color: black;
+
+}
+.product{
+     padding-bottom: 50px;
+     border-bottom: 3px solid #D35400;
+}
+.product h2{
+     text-align: center;
+     padding: 10px;
+     font-size: 40px;
+     text-transform: uppercase;
+}
+.product .product_container{
+     display: flex;
+     /* margin-left: 5%;
+     margin-right: 5%; */
+     /* border: 1px solid blueviolet; */
+     margin-bottom: 35px;
+}
+.product .product_container .item{
+     width: 33.33%;
+     margin: 10px;
+     height: auto;
+     /* border: 2px solid blue; */
+}
+.product .product_container .item:hover{
+     box-shadow: 0px 3px 25px 0px black;
+}
+.product .product_container .item .item_img{
+     width: 100%;
+     height: 250px;
+
+}
+.product .product_container .item .item_img img{
+     width: 100%;
+     height: 250px;
+}
+
+.product .product_container .item .item_content{
+     text-align: center;
+}
+.product .product_container .item .item_content h3{
+     font-size: 24px;
+     font-weight: bold;
+     color: salmon;
+}
+.product .product_container .item .item_content p{
+     font-size: 18px;
+     /* font-weight: b; */
+ 
+}
+.product .product_container .item .item_content a{
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bolder;
+     width: 80px;
+     height: 800px;
+     box-sizing: border-box;
+     border: 1px solid white;
+     padding: 10px;
+     border-radius: 8px;
+     background-color: yellowgreen;
+}
+.product .product_container .item .item_content a:hover{
+     color: azure;
+     background-color: blueviolet;
+}
+.product .product_btn{
+     margin-top: 42px;
+     text-align: center;
+    
+}
+.product .product_btn a{
+     text-decoration: none;
+     width: 190px;
+     height: 85px;
+     padding: 10px;
+     text-align: center;
+     font-weight: bolder;
+     font-size: 20px;
+     border-radius: 10px;
+     background-color: #21618C ;
+     text-transform: capitalize;
+     color: white;
+}
+.product .product_btn a:hover{
+     color: black;
+     background-color: coral;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxx keypoint xxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+.keypoint{
+     padding: 20px;
+     background-color: #D7DBDD;
+     /* border: 1px solid sienna; */
+}
+.keypoint h2{
+     color: black;
+     font-size: 35px;
+     text-align: center;
+     padding: 8px;
+}
+.keypoint h2:hover{
+     background-color: black;
+     color: yellow;
+
+}
+.keypoint .key_container{
+     display: flex;
+}
+.keypoint .key_container .key_content{
+     width: 40%;
+     padding: 15px;
+     float: left;
+}
+.keypoint .key_container .key_content li{
+     list-style: none;
+     color: #21618C;
+     margin: 10px;
+     padding: 10px;
+     border-left: 2px solid orangered;
+     text-align: left;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+.keypoint .key_container .key_content li:hover{
+     box-shadow: 0 3px 2px 2px rgba(0, 0, 0, .15);
+     font-size: 15px;
+     
+}
+.keypoint .key_container .key_img{
+     width: 40%;
+     float: right;
+     margin-left: 120px;
+}
+.keypoint .key_container .key_img img{
+     width: 100%;
+    
+}
+/* xxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxx Trending xxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxx */
+.testi{
+     padding: 50px;
+}
+.testi h2{
+     color: #000;
+     font-size: 32px;
+     text-align: center;
+     padding: 10px;
+     text-transform: capitalize;
+     font-weight: bolder;
+}
+.testi .testi_container{
+     margin-right: 10%;
+     margin-left: 10%;
+     text-align: center;
+     border-radius: 0 0 20px 20px;
+     border: 5px dashed #641E16;
+}
+/* .testi .testi_container .carousel-inner{
+     background-color: white;
+     box-shadow: none;
+} */
+.testi .testi_container .item{
+     width: 100%;
+     /* margin: 20px; */
+     background-color: white;
+     box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+     width: 100%;
+     height: 300px;
+     overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+     width: 100%;
+     height: auto;
+    
+}
+.testi .testi_container .item .item_content{
+     text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+     font-size: 24px;
+     font-weight: bold;
+     color: salmon;
+}
+.testi .testi_container .item .item_content p{
+     font-size: 18px;
+     /* font-weight: b; */
+ 
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxx our Team xxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.team{
+     padding: 30px;
+     background-color: yellow;
+
+}
+.team h2{
+     color: #000;
+     font-size: 32px;
+     text-align: center;
+     padding: 10px;
+     text-transform: capitalize;
+     font-weight: bolder;
+}
+.team .team_container{
+     display: flex;
+     justify-content: space-around;
+}
+.team .team_container .team_video{
+     width: 40%;
+     padding: 20px;
+}
+.team .team_container .team_video video{
+     width: 100%;
+     height: auto;
+     border: 7px solid orange;
+     outline: none;
+}
+.team .team_container .team_content{
+     width: 40%;
+     padding: 10px;
+}
+.team .team_container .team_content p{
+     padding: 20px;
+     font-size: 18px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxx Review xxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.feed{
+     background-color: palegreen;
+     margin-bottom: 15px;
+}
+.feed h2{
+     color: #000;
+     font-size: 32px;
+     text-align: center;
+     padding: 10px;
+     text-transform: capitalize;
+     font-weight: bolder;
+}
+.feed .feed_form{
+     text-align: center;
+     /* border: 2px solid black; */
+}
+.feed .feed_form form{
+     padding: 7px;
+}
+.feed .feed_form form input{
+     width: 30%;
+     margin: 5px;
+     padding: 7px;
+     border: none;
+     outline: none;
+}
+.feed .feed_form form textarea{
+     width: 30%;
+     margin: 5px;
+     padding: 7px;
+     border: none;
+     outline: none;
+}
+.feed .feed_form form button{
+     background-color: #872990;
+     color: #fff;
+     font-size: 15px;
+     padding: 7px;
+     font-weight: bold;
+     width: 10%;
+     border-radius: 6px;
+     outline: none;
+     border: none;
+}
+.feed .feed_form form button:hover{
+     color: #fff;
+     background-color: #20211B;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxx About Us xxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.about_us{
+     color: #000;
+     font-size: 32px;
+     text-align: center;
+     padding: 10px;
+     text-transform: capitalize;
+     font-weight: bolder;
+}
+.about_us h2{
+     text-align: center;
+     color: black;
+     font-size: 30px;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+}
+.about_us .about_container{
+     display: flex;
+     justify-content: space-around;
+}
+.about_us .about_container .about_img{
+     width: 50%;
+     padding: 10px;
+}
+.about_us .about_container .about_img img{
+     width: 100%;
+     height: auto;
+}
+.about_us .about_container .about_content{
+     width: 50%;
+     padding: 10px;
+}
+.about_us .about_container .about_content p{
+     padding: 10px;
+     font-size: 18px;
+     font-family: verdana;    
+}
+.about_us .about_container .about_content h2{
+     font-size: 25px;
+     text-align: center;
+     color: green;
+     padding: 7px;
+     font-weight: bold;
+     font-family: serif;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxx Blog xxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.blog{
+     display: flex;
+     padding: 10px;
+     justify-content: space-between;
+}
+.blog .blog_content1{
+     width: 50%;
+     padding: 15px;
+     /* border: 1px solid brown; */
+}
+.blog .blog_content1:hover{
+     box-shadow: 5px 1px 5px 5px #784212;
+}
+.blog .blog_content1 img{
+     width: 100%;
+     height: 300px;
+}
+.blog .blog_content1 p{
+     text-align: center;
+     font-family: verdana;
+     font-size: 16px;
+}
+.blog .blog_content1 p::after{
+     content: "read more >";
+     color: brown;
+}
+.blog .blog_content1 span{
+     font-size: 20px;
+     color: #050FF7;
+     margin: 5px;
+}
+.blog .blog_content2{
+     width: 50%;
+     padding: 15px;
+     /* border: 1px solid brown; */
+}
+.blog .blog_content2:hover{
+     box-shadow: 5px 1px 5px 5px #784212;
+}
+.blog .blog_content2 img{
+     width: 100%;
+     height: 300px;
+}
+
+.blog .blog_content2 p{
+     text-align: center;
+     font-family: verdana;
+     font-size: 16px;
+}
+.blog .blog_content2 p::after{
+     content: "read more >";
+     color: brown;
+}
+.blog .blog_content2 span{
+     font-size: 20px;
+     color: #050FF7;
+     margin: 5px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxx contact Us xxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.contact_container{
+     padding: 35px;
+}
+.contact_container h2{
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 30px;
+     font-weight: bold;
+     padding: 6px;
+}
+.contact_container .g_map{
+     border: 8px solid orchid;
+}
+.contact_container .contact_content{
+     padding:15px;
+}
+.contact_container .contact_content p{
+     padding:5px;
+     text-align: center;
+     /* line-height: 1.2; */
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+}
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxx login/register xxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.login_reg{
+     padding: 19px;
+     text-align: center;
+}
+.login_reg .login{
+     padding: 10px;
+     color: cadetblue;
+     background-color: cornsilk;
+}
+.login_reg .login h3{
+     font-family: verdana;
+     font-size: 25px;
+}
+.login_reg .login input{
+     margin: 8px;
+     padding: 10px;
+     width: 35%;
+     outline: none;
+}
+.login_reg .login input:focus{
+     border: 2px solid #D87813;
+}
+.login_reg .login form span{
+     font-size: 17px;
+     font-weight: bold;
+}
+.login_reg .login form span:hover{
+     color: green;
+} 
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxx ppolicy xxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+.privacy_policy{
+     padding: 45px;
+}
+.privacy_policy h2{
+     text-align: center;
+     font-size: 35px;
+     font-family: serif;
+     font-weight: bold;
+}
+.policy_rules{
+     background-color:#A6ACAF ;
+}
+.privacy_policy .policy_rules{
+     padding: 25px;
+}
+.privacy_policy .policy_rules p{
+     font-size: 15px;
+     font-family: verdana;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxx Footer xxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxx  */
+
+footer{
+     background-color:  #979A9A;
+     padding: 42px;
+}
+footer .pages{
+     text-align: center;
+}
+footer .pages h3{
+     color: black;
+     font-size: 20px;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+}
+footer .pages a{
+     text-decoration: none;
+     margin: 10px;
+     color: rgb(39, 36, 32);
+     font-family: verdana;
+     font-size: 16px;
+}
+footer .pages a:hover{
+     color: white;
+     font-size: 18px;
+}
+footer .doc{
+     text-align: center;
+}
+footer .doc h3{
+     color: black;
+     font-size: 20px;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+}
+footer .doc a{
+     text-decoration: none;
+     margin: 10px;
+     color: rgb(39, 36, 32);
+     font-family: verdana;
+     font-size: 16px;
+}
+footer .doc a:hover{
+     color: white;
+     font-size: 18px;
+}
+footer .container4medias{
+     display: flex;
+     justify-content: space-around;
+}
+/* footer .social{
+     text-align: center;
+} */
+footer .container4medias .social h3{
+     color: black;
+     font-size: 20px;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+}
+footer .container4medias .social a{
+     font-size: 30px;
+     color: orange;
+     margin: 10px;
+}
+footer .container4medias .social a:hover{
+     color: white;
+}
+
+/* footer .contact{
+     text-align: center;
+} */
+footer .container4medias .contact h3{
+     color: black;
+     font-size: 20px;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 5px;
+}
+footer .container4medias .contact a{
+     font-size: 30px;
+     color: orange;
+     margin: 10px;
+}
+footer .container4medias .contact a:hover{
+     color: white;
+}
+
+footer .container4medias h3{
+     font-family: serif;
+     font-size: 25px;
+     font-weight: bold;
+
+}
+footer .container4medias .top h3 a{
+     padding-top: 20px;
+     text-decoration: none;
+     color: black;
+}
+footer .container4medias .top h3 a:hover{
+     color: white;
+}
